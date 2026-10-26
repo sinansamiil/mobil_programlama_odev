@@ -1,0 +1,146 @@
+{
+  "proje_adi": "Öğrenci Asistanı - Flutter SQLite & JSON",
+  "olusturucu": "Sinan Şamil Köylü",
+  "yedekleme_tarihi": "2026-10-23T18:41:15.521408",
+  "toplam_kullanici": 2,
+  "kullanici_verileri": [
+    {
+      "user": {
+        "id": 2,
+        "name": "Sinan Samil Koylu",
+        "email": "koylusinansamil@gmail.com",
+        "password": "123456",
+        "student_number": "240211019",
+        "department": "Yazilim Muhendisligi",
+        "created_at": "2026-10-19T12:24:48.546223"
+      },
+      "transactions": [
+        {
+          "id": 5,
+          "user_id": 2,
+          "title": "burs",
+          "amount": 4000.0,
+          "type": "income",
+          "category": "Burs & Harçlık",
+          "date": "19.10.2026"
+        },
+        {
+          "id": 4,
+          "user_id": 2,
+          "title": "yemek",
+          "amount": 100.0,
+          "type": "expense",
+          "category": "Yemek",
+          "date": "19.10.2026"
+        }
+      ],
+      "tasks": [
+        {
+          "id": 7,
+          "user_id": 2,
+          "course_name": "mesleki ingilizce",
+          "title": "kelime ogrenme",
+          "due_date": "22.10.2026",
+          "priority": "Düşük",
+          "is_completed": 0
+        },
+        {
+          "id": 6,
+          "user_id": 2,
+          "course_name": "yapay zeka",
+          "title": "proje",
+          "due_date": "22.10.2026",
+          "priority": "Orta",
+          "is_completed": 0
+        },
+        {
+          "id": 4,
+          "user_id": 2,
+          "course_name": "mobil programlama",
+          "title": "login register odev",
+          "due_date": "22.10.2026",
+          "priority": "Yüksek",
+          "is_completed": 0
+        },
+        {
+          "id": 5,
+          "user_id": 2,
+          "course_name": "bicimsel diller ve otomata",
+          "title": "ornek cozme odevi",
+          "due_date": "22.10.2026",
+          "priority": "Yüksek",
+          "is_completed": 1
+        }
+      ]
+    },
+    {
+      "user": {
+        "id": 1,
+        "name": "Sinan Şamil Köylü",
+        "email": "sinan@gmail.com",
+        "password": "demo123",
+        "student_number": "20241050",
+        "department": "Bilgisayar Mühendisliği",
+        "created_at": "2026-10-19T11:43:45.723758"
+      },
+      "transactions": [
+        {
+          "id": 3,
+          "user_id": 1,
+          "title": "Flutter Mobil Ders Kitabı & Fotokopi",
+          "amount": 220.0,
+          "type": "expense",
+          "category": "Kırtasiye & Kitap",
+          "date": "19.10.2026"
+        },
+        {
+          "id": 2,
+          "user_id": 1,
+          "title": "Üniversite Yemekhane Yüklemesi",
+          "amount": 350.0,
+          "type": "expense",
+          "category": "Yemek",
+          "date": "19.10.2026"
+        },
+        {
+          "id": 1,
+          "user_id": 1,
+          "title": "Aylık KYK / Aile Harçlığı",
+          "amount": 4500.0,
+          "type": "income",
+          "category": "Burs & Harçlık",
+          "date": "19.10.2026"
+        }
+      ],
+      "tasks": [
+        {
+          "id": 3,
+          "user_id": 1,
+          "course_name": "Yazılım Mühendisliği",
+          "title": "Sprint 2 Görevlerinin İncelenmesi",
+          "due_date": "30.10.2026",
+          "priority": "Düşük",
+          "is_completed": 0
+        },
+        {
+          "id": 2,
+          "user_id": 1,
+          "course_name": "Veritabanı Yönetimi",
+          "title": "İlişkisel Veritabanı ER Diyagramı Çizimi",
+          "due_date": "28.10.2026",
+          "priority": "Orta",
+          "is_completed": 0
+        },
+        {
+          "id": 1,
+          "user_id": 1,
+          "course_name": "Mobil Programlama",
+          "title": "Flutter SQLite & Login Ödevi Teslimi",
+          "due_date": "24.10.2026",
+          "priority": "Yüksek",
+          "is_completed": 1
+        }
+      ]
+    }
+  ]
+}
